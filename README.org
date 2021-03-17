@@ -2,7 +2,7 @@
 #+OPTIONS: toc:nil
 
 *TDT4145_Project* is a Python implementation of the TDT4145 Project
-Spring 2021. The program satisfies the listed [[*Use Cases]].
+Spring 2021. The program satisfies the listed [[Use Cases]].
 
 * Learning Outcomes
 1. Get experience in data modelling and translation into SQL
