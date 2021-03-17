@@ -1,14 +1,14 @@
 # TDT4145_Project
 
 **TDT4145_Project** is a Python implementation of the TDT4145 Project
-Spring 2021. The program satisfies the listed [Use Cases](#use-cases-id)
+Spring 2021. The program satisfies the listed [Use Cases](#use-cases)
 
 ## Learning Outcomes
 1. Get experience in data modelling and translation into SQL
 2. Get practical experience in programming towards a SQL database using JDBC
 3. Make concise documentation of high quality
 
-## Use Cases {#use-cases-id}
+## Use Cases
 1. A student logs into the system, i.e., check user name and password (you do
    not need to encrypt/decrypt passwords). This should have e-mail and password
    as input, and these should match this info in the database.
