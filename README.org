@@ -24,6 +24,22 @@ For installation with =conda=:
   python main.py
 #+end_src
 
+** Movies
+
+[[./gifs/vid1.gif]]
+
+
+[[./gifs/vid2.gif]]
+
+
+[[./gifs/vid3.gif]]
+
+
+[[./gifs/vid4.gif]]
+
+
+[[./gifs/vid5.gif]]
+
 
 
 * Learning Outcomes
