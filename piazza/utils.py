@@ -2,7 +2,7 @@
 """Code to create and fill `TDT4145ProjectGroup131` database with data.
 
 This module contains code that creates the `TDT4145ProjectGroup131` database,
-creates the tables of the `TDT4145ProjectGroup131` database, and inserts the
+creates the tables of the `TDT4145ProjectGroup131` database, and fillss the
 database with data found in the `.csv` files in `../data/`.
 
 """

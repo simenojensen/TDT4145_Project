@@ -48,7 +48,7 @@ For installation with =conda=:
   python main.py
 #+end_src
 
-** Movies
+** Demonstration
 
 [[./gifs/vid1.gif]]
 

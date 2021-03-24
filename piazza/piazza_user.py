@@ -367,7 +367,7 @@ class Student(PiazzaUser):
     """
 
     def __init__(self, user, password, DB_NAME):
-        """Call the PiazzaUser __init__ and Student action_meny functions.
+        """Call the PiazzaUser __init__ and Student action_menu functions.
 
         Parameters
         ----------
@@ -380,14 +380,14 @@ class Student(PiazzaUser):
 
         """
         super().__init__(user, password, DB_NAME)
-        self.action_meny()
+        self.action_menu()
 
-    def action_meny(self):
-        """Student action meny interface.
+    def action_menu(self):
+        """Student action menu interface.
 
         A student can make a post, search for a keyword or log out.
         """
-        action_meny_string = (
+        action_menu_string = (
             "\n\nYou have three options:\n"
             "- Make a post            [1]\n"
             "- Search for a keyword   [2]\n"
@@ -395,7 +395,7 @@ class Student(PiazzaUser):
         )
 
         while True:
-            print(action_meny_string)
+            print(action_menu_string)
             action_string = input("Please enter your option: ")
             if action_string == "1":
                 self.create_post()
@@ -416,7 +416,7 @@ class Instructor(PiazzaUser):
     """
 
     def __init__(self, user, password, DB_NAME):
-        """Call the PiazzaUser __init__ and Instructor action_meny functions.
+        """Call the PiazzaUser __init__ and Instructor action_menu functions.
 
         Parameters
         ----------
@@ -429,16 +429,16 @@ class Instructor(PiazzaUser):
 
         """
         super().__init__(user, password, DB_NAME)
-        self.action_meny()
+        self.action_menu()
 
-    def action_meny(self):
-        """Instructior action meny interface.
+    def action_menu(self):
+        """Instructior action menu interface.
 
         An instructor can make a post, search for a keyword, view statistics or
         log out.
 
         """
-        action_meny_string = (
+        action_menu_string = (
             "\n\nYou have four options:\n"
             "- Make a post            [1]\n"
             "- Search for a keyword   [2]\n"
@@ -447,7 +447,7 @@ class Instructor(PiazzaUser):
         )
 
         while True:
-            print(action_meny_string)
+            print(action_menu_string)
             action_string = input("Please enter your option: ")
             if action_string == "1":
                 self.create_post()
