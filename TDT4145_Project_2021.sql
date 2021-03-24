@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS Project;
-USE Project;
+CREATE DATABASE IF NOT EXISTS TDT4145ProjectGroup131;
+USE TDT4145ProjectGroup131;
 
 -- BINARY(16) types were used for IDs as they can easily be generated in python.
 
@@ -29,7 +29,6 @@ CREATE TABLE IF NOT EXISTS PostCreator(
        CONSTRAINT PostCreator_PK PRIMARY KEY (PCID)
 );
 
-
 CREATE TABLE IF NOT EXISTS Student(
        StudentID BINARY(16) NOT NULL,
        PCID BINARY(16) NOT NULL,
@@ -40,7 +39,6 @@ CREATE TABLE IF NOT EXISTS Student(
        CONSTRAINT Student_FK2 FOREIGN KEY (PCID) REFERENCES PostCreator(PCID)
                ON UPDATE CASCADE ON DELETE CASCADE
 );
-
 
 CREATE TABLE IF NOT EXISTS Instructor(
        InstructorID BINARY(16) NOT NULL,
@@ -148,7 +146,6 @@ CREATE TABLE IF NOT EXISTS UserViewsThread(
        CONSTRAINT UserViewsThread_FK2 FOREIGN KEY (ThreadID) REFERENCES Thread(ThreadID)
                ON UPDATE CASCADE ON DELETE CASCADE
 );
-
 
 CREATE TABLE IF NOT EXISTS UserInCourse(
        UserID BINARY(16) NOT NULL,

@@ -1,0 +1,69 @@
+PostID,PostContent,PCID,PostType
+8614abe6-e792-4699-9d7b-95cbf62ca4ff,"Varierende input i grensesnitt
+Hei! Forventes det at man skal ha mulighet til å gi inn annen input i grensesnittet, som f.eks. et annet nøkkelord enn ""WAL"" ved realiseringen av use case 4, og ellers i use case 1-4? Eller holder det at man har predefinerte argument?",775a97cc-f176-4065-9bd4-a0216d64db16,Thread
+afdf87e4-32fd-4965-aab7-3de723d5a5b6,Dette kan realiseres med å bruke Scanner for å hente input fra bruker i terminal f.eks,1c6da984-36b4-4995-bd0d-3b3aef152054,Reply
+c7e4f3b9-6d5d-48a3-a859-4a2164f9577a,"søke etter ""WAL"" i ER-diagram eller tabeller?
+I prosjektet, punkt nummer 4: A student searches for posts with a specific keyword “WAL”. The return value of this should be a list of ids of posts matching the keyword.
+
+Er dette noe vi trenger å tenke på i ER-diagrammet eller tabellene? Vi greier ikke helt å se for oss hvordan det skal inn i skjemaet? Kan vi sette opp ""Søk"" som en relasjon?",42401056-2ac6-4524-9f48-3799a000bde7,Thread
+55d45386-c138-469a-84cb-dbb50cc12d54,Jeg ville nok tenkt at dette er en funksjonalitet som kan bedre implementeres med Java :),95af5c7c-acce-434c-903c-0c07c2c2c299,Reply
+042c817a-b186-438d-b494-1869aa39e410,"Hva menes med ""input"" i oppgaveteksten?
+Hei,
+
+Når det står at ""input"" er ID til posten det skal svares på, skal vi da anta at det kommer input fra Frontend til Backend? F.eks når en instruktør svarer på en student sin post og trykker ""Reply"" (på posten som allerede har en PostID), er det hensiktsmessig å anta at idet knappen trykkes vil en replyToPost(int PostID)-metode kalles og ta PostID som input?",843739bb-75b3-487f-bffd-12cb7e7c17c9,Thread
+7cb52507-9a79-4d35-a675-7ea2db1d30bf,"Øvrig funksjonalitet
+Hei, vi har fått implementert den nødvendige funksjonaliteten til for å løse use casene. Anbefaler du at vi fokuserer på dokumentasjon og kodekvalitet, eller bør vi fokusere på å implementere ytterligere funksjonalitet som for eksempel instructor's mappehåndtering?",d0195a00-5267-4153-89ac-aaaf66d1dd58,Thread
+eeec72f5-29ac-405f-b263-954a71ac6c72,"Project Clarification Use Case #2
+Skal vi anta at student allerede har lagd posten og vi skal finne den ved en Query eller skal vi vise hvordan vi kan la en slik post bli lagd. Er litt forvirrende når input skal være en post med ""Exam"" og ""Question"". Vet det er en annen lignende post, men syntes svaret ikke var utfyllende nok",ae0c673e-5803-496f-8e68-a50bb762d4e5,Thread
+c746241b-25fb-4061-9b94-1002dd319ea0,"4NF
+Er det lov med svake klasser på 4NF?",33ac03ff-ffc2-4d93-905a-267924dfa293,Thread
+a9ee32e2-142e-4abe-8148-a7c53f56ad45,Svake klasser er i ER. 4NF er i relasjonsmodellen. Hva er sammenhengen?,37d47285-d67a-4950-9f2e-9fdb024171d2,Reply
+e2f80818-0e3b-4d23-b41e-cb00f0f9ae37,"Oppgave C
+Hei, 
+
+I oppgave c står det at man skal beskrive hvordan modellen tilfredsstiller usecasene. VIl dette si en tekstlig forklaring eller skal man skrive SQL?",cce30c32-62e3-4134-82e2-fc38d5bdd73b,Thread
+b336c4f3-e196-4503-a128-b24a9fdbbe98,"Normalform
+Hei! Vi har modellert relasjonen User som du ser nedenfor. Vil det at email må være unik føre til at UserID og email begge blir kandidatnøkler? Og vil dette isåfall føre til at relasjonen ikke er på 2NF fordi de er delvis avhengig av hverandre?
+
+User(UserID, email, password, type): Type refererer til subklassene Instructor og Student, Email kan ikke ha duplikater, Password kan ikke være null",a7a65a55-5df9-4c4a-825b-e000bca7ff83,Thread
+e5f2a46f-3268-4b31-a3e9-6c7b690e76c0,"SQL
+Hvordan kan man sjekke at en type av en superklasse er av en spesifikk subklasse i sql? ",783157ba-0662-4b56-b1ab-55a5150294b4,Thread
+a903ebdc-e090-4c96-8ef3-f4d67ffa58d9,"Type attributt i total spesialisering
+Dersom man har en total spesialisering må man da ha en typeattributt på ER diagrammet, eller er dette noe som legges til når man oversetter diagrammet til tabeller?",783157ba-0662-4b56-b1ab-55a5150294b4,Thread
+5a4068b6-e64a-41a7-85f7-7b64bef3300e,"Det er vel avhengig av hvordan du oversetter. Noen løsninger krever typeattributt, ja.",02da402e-9dc0-4f70-b034-b1d6c83b2cbf,Reply
+9f4b1e0d-7bac-4e21-ac8d-e5b4252c5ebc,"An instructor may manage folders and subfolders in Piazza
+Hei, 
+
+I oppgaveteksten til prosjektet står det ""An instructor may manage folders and subfolders in Piazza"". Er det rimelig å anta at dette er noe som er implisitt dersom man er logget inn som instruktør, og derfor ikke trengs å modelleres i ER-diagrammet? ",933e421b-9b98-4b54-99aa-729763390f9f,Thread
+269139e8-5b07-4b1f-8539-d1159b2a5b60,"Funkjsonalitet utover use-cases
+Skal programmet ha mer funksjonalitet enn kun for usecasene? er jo mye mer som inngår i piazza egentlig. Feks for usecase 1 så må jo studenten allerede være registrert, men det er ikke et usecase/del av usecaset å lage en ny bruker.",bb3d7b2a-23a1-4fc2-8f84-6b1bb5cf5c5e,Thread
+090d0e70-43b9-464a-b308-685b8f01ddc9,"Flere studasser på teams
+Hei,
+
+Kan dere sette inn flere studasser på jobb på teams nå som det er prosjekt? Forstår at studassene gjør alt de kan for å hjelpe, men når det er kun en eller to på jobb går det ekstremt sakte med en ventetid på 1-2 timer. 
+Kan dere sette inn flere studasser i travle perioder som dette?",5408474b-20b9-4757-849f-5ae9fcc8e0f9,Thread
+801affa5-c555-4874-aa07-cd2469e172db,"Spesialisering og nøkler
+Vi lurer på noe vi ikke finner svar på i forelesning: dersom subklasser arver fra superklassen slik som i bildet, vil da subklassenes ID arvet fra superklassen referes til som en FK (i tillegg til PK) mot superklassen ved spørring på tvers av tabellene? Eller er subklassenes ID fortsatt definert som kun PK ved spørring opp mot superklassen?
+",fece8033-505a-4ba2-a2f7-e7bc6785c08e,Thread
+d723ca1f-f7a7-4b3e-8330-082d8785c507,"uklar oppgavetekst - forum og course
+""inviting both professors and students to participate in the forum for a specific course.""
+
+Kan vi anta her at course og forum er det samme? står ikke noe annet om forum i oppgave teksten så det er litt uklart hvordan det henger sammen med alt annet.
+",97014508-e4ae-44a7-86b6-636b8deaff2e,Thread
+8932fc26-21b1-4386-8abe-f30c7fbc88b5,"Korresponderende navn i sql script, ER-diagram og tabeller
+Holder på å skrive et sql script for å konstruere tabellene til databasen, men enkelte navn jeg ønsker å bruke for attributter er allerede definert som andre ting i MySQL, f.eks. Password og User. Har derfor valgt å kalle disse UserPassword og PiazzaUser, bør vi da oppdatere navnene i ER-diagrammet og den tekstlige oversikten over tabellen (altså oppg. a og b), eller er det unødvendig siden man skjønner hvilke attributter som er ment?
+",db5d470c-9702-4c42-8ddc-7e49f067c410,Thread
+4d4ac60d-3825-41bc-af0a-86e521847990,"uklar oppgavetekst
+I oppgaveteksen står det ""Instructors may manage Students by inviting both professors and students to participate in the forum for a specific course.""
+
+Lurer på:
+hvordan kan en instructor manage Students ved å invitere professors? Synes ikke setningen gir noe mening, hva mener dere med denne setningen?",506bec22-f70a-400d-b0dc-d297b2ca8f50,Thread
+94fc116b-37ac-4b84-a891-8aefb0df59e6,"Subfolder i en subfolder
+Er det meningen at en subfolder skal kunne ha en subfolder eller er det meningen at en folder enten er main eller en subfolder?
+",28ef9fdd-0c35-4666-a0ad-48a85b703c17,Thread
+2a0612fd-72f2-46e1-b5ad-fa83dfde3609,"Anta det dere ønsker om dette, men dokumenter antagelsene.",a60da48e-c1cd-48e4-a106-df8ad4fe40a7,Reply
+0fba6d10-eb81-4f81-a44c-8cb496921e47,"Rekursivrelasjon
+Dersom vi har en relasjon fra en entitet til seg selv med kardinalitetene  (1,1) og (0,n), hvordan vil dette skrives oversatt til relasjonsskjema?",07b11be4-0d82-42c6-b050-1e4a3eed536e,Thread
+d47c62d5-d2e5-4f03-96bb-29c7814312db,"Type attributt i total spesialisering
+Dersom man har en total spesialisering må man da ha en typeattributt på ER diagrammet, eller er dette noe som legges til når man oversetter diagrammet til tabeller?
+",49d82c0b-1115-4180-ba01-1dab3f7ba914,Thread

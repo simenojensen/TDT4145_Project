@@ -1,7 +1,7 @@
 #+TITLE: TDT4145 Project
 #+OPTIONS: toc:nil
 
-*TDT4145_Project* is a Python implementation of the TDT4145 Project
+*piazza* is a Python implementation of the TDT4145 Project
 Spring 2021. The program satisfies the listed [[#use-cases][use cases]].
 
 * Learning Outcomes
