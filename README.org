@@ -7,14 +7,25 @@ Spring 2021. The program satisfies the listed [[#use-cases][use cases]].
 * Installation
 #+begin_src bash
   git clone https://github.com/simenojensen/TDT4145_Project.git
-  cd TDT4145_Project/piazza
-  python main.py
 #+end_src
 
 ** Requirements
 - [[https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-boost-8.0.23.tar.gz][MySQL]] (>= 8.0)
 
 See =environment.yml= for python packages.
+For installation with =conda=:
+#+begin_src bash
+  conda env create -f environment.yml
+#+end_src
+
+* Usage
+#+begin_src bash
+  cd TDT4145_Project/piazza
+  python main.py
+#+end_src
+
+
+
 * Learning Outcomes
 1. Get experience in data modelling and translation into SQL
 2. Get practical experience in programming towards a SQL database.
