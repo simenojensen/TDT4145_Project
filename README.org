@@ -49,17 +49,25 @@ For installation with =conda=:
 #+end_src
 
 ** Demonstration
-
+- Run program
+- Login with MySQL login information
+- Create the =TDT4145ProjectGroup131= database and insert data from =.csv= files.
+- Login as student
 [[./gifs/vid1.gif]]
 
-
+- Create a thread as a student. Enter post content, folder and tag.
+- Search for keyword 'WAL'.
 [[./gifs/vid2.gif]]
 
-
+- Search for keyword '#tdt4145'
+- Log out
+- Log in as instructor.
 [[./gifs/vid3.gif]]
 
-
+- Create a reply
+- Enter post id of post to reply to, enter reply content.
 [[./gifs/vid4.gif]]
 
-
+- Go back to action meny
+- View statistics
 [[./gifs/vid5.gif]]
