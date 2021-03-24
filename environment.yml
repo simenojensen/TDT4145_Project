@@ -1,0 +1,48 @@
+name: tdt4145
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - ca-certificates=2021.1.19=hecd8cb5_1
+  - certifi=2020.12.5=py39hecd8cb5_0
+  - dnspython=1.16.0=py39hecd8cb5_0
+  - importlib-metadata=3.7.3=py39hecd8cb5_1
+  - libblas=3.9.0=8_openblas
+  - libcblas=3.9.0=8_openblas
+  - libcxx=11.1.0=habf9029_0
+  - libffi=3.3=hb1e8313_2
+  - libgfortran=5.0.0=9_3_0_h6c81a4c_20
+  - libgfortran5=9.3.0=h6c81a4c_20
+  - liblapack=3.9.0=8_openblas
+  - libopenblas=0.3.12=openmp_h54245bb_1
+  - libprotobuf=3.15.6=hcf210ce_0
+  - llvm-openmp=11.1.0=hda6cdc1_0
+  - lz4-c=1.9.3=h23ab428_0
+  - mysql-common=8.0.23=h694c41f_1
+  - mysql-connector-python=8.0.23=py39hfef13f3_1
+  - mysql-libs=8.0.23=hbeb7981_1
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.20.1=py39h3c955ea_0
+  - openssl=1.1.1j=h9ed2024_0
+  - pandas=1.2.3=py39hb2f4e1b_0
+  - pip=21.0.1=py39hecd8cb5_0
+  - prettytable=2.1.0=pyhd8ed1ab_0
+  - protobuf=3.15.6=py39h9fcab8e_0
+  - python=3.9.2=h88f2d9e_0
+  - python-dateutil=2.8.1=pyhd3eb1b0_0
+  - python_abi=3.9=1_cp39
+  - pytz=2021.1=pyhd3eb1b0_0
+  - readline=8.1=h9ed2024_0
+  - setuptools=52.0.0=py39hecd8cb5_0
+  - six=1.15.0=py39hecd8cb5_0
+  - sqlite=3.35.2=hce871da_0
+  - tk=8.6.10=hb0a8c7a_0
+  - tzdata=2020f=h52ac0ba_0
+  - wcwidth=0.2.5=py_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zipp=3.4.1=pyhd3eb1b0_0
+  - zlib=1.2.11=h1de35cc_3
+  - zstd=1.4.9=h582d3a0_0
+prefix: /usr/local/Caskroom/miniconda/base/envs/tdt4145

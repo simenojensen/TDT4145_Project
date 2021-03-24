@@ -11,8 +11,10 @@ Spring 2021. The program satisfies the listed [[#use-cases][use cases]].
   python main.py
 #+end_src
 
+** Requirements
+- [[https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-boost-8.0.23.tar.gz][MySQL]] (>= 8.0)
 
-
+See =environment.yml= for python packages.
 * Learning Outcomes
 1. Get experience in data modelling and translation into SQL
 2. Get practical experience in programming towards a SQL database.
