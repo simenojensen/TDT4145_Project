@@ -4,9 +4,18 @@
 *piazza* is a Python implementation of the TDT4145 Project
 Spring 2021. The program satisfies the listed [[#use-cases][use cases]].
 
+* Installation
+#+begin_src bash
+  git clone https://github.com/simenojensen/TDT4145_Project.git
+  cd TDT4145_Project/piazza
+  python main.py
+#+end_src
+
+
+
 * Learning Outcomes
 1. Get experience in data modelling and translation into SQL
-2. Get practical experience in programming towards a SQL database using JDBC
+2. Get practical experience in programming towards a SQL database.
 3. Make concise documentation of high quality
 
 * Use Cases
