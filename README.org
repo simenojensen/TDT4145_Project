@@ -18,30 +18,6 @@ For installation with =conda=:
   conda env create -f environment.yml
 #+end_src
 
-* Usage
-#+begin_src bash
-  cd TDT4145_Project/piazza
-  python main.py
-#+end_src
-
-** Movies
-
-[[./gifs/vid1.gif]]
-
-
-[[./gifs/vid2.gif]]
-
-
-[[./gifs/vid3.gif]]
-
-
-[[./gifs/vid4.gif]]
-
-
-[[./gifs/vid5.gif]]
-
-
-
 * Learning Outcomes
 1. Get experience in data modelling and translation into SQL
 2. Get practical experience in programming towards a SQL database.
@@ -65,3 +41,25 @@ For installation with =conda=:
    created”. You don’t need to order by posts created, but the number should be
    displayed. The result should also include users which have not read or
    created posts.
+
+* Usage
+#+begin_src bash
+  cd TDT4145_Project/piazza
+  python main.py
+#+end_src
+
+** Movies
+
+[[./gifs/vid1.gif]]
+
+
+[[./gifs/vid2.gif]]
+
+
+[[./gifs/vid3.gif]]
+
+
+[[./gifs/vid4.gif]]
+
+
+[[./gifs/vid5.gif]]
