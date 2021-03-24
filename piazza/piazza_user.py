@@ -202,9 +202,10 @@ class PiazzaUser:
         with self.cnx.cursor() as cursor:
             cmd = "INSERT INTO Post VALUES(%s, %s, %s, 'Thread')"
             # Genereate postid
-            postid = uuid.uuid4()
-            print(f"PostID of created post: {str(postid)}")
-            postid = postid.bytes
+            postid = "d786e250-c88c-4b6d-a5ea-d6b7fa5ea9ad"
+            print(f"\nPostID of created post: {str(postid)}")
+            postid = uuid.UUID(postid).bytes
+            # postid = postid.byte
             pcid = uuid.UUID(self.pcid).bytes
             args = (postid, postcontent, pcid)
             cursor.execute(cmd, args)
