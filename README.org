@@ -48,6 +48,14 @@ For installation with =conda=:
   python main.py
 #+end_src
 
+- Example login as student :: :
+- =useremail:= :: frumford6@ted.com
+- =userpassword:=  :: XpdsDP085Un
+\\
+- Example login as instructor :: :
+- =useremail:= :: stretters@mashable.com
+- =userpassword:=  :: AQqzBO2mTEkB
+
 ** Demonstration
 - Run program
 - Login with MySQL login information
