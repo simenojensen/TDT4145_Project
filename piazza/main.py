@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-TDT4145 - Project
-Author: Simen Omholt-Jensen
+TDT4145 Datamodellering og Databaser Project 2021
+Author: Simen Omholt-Jensen, Anna Zhang, Vebjørn Steinsholt
 
 This module contains code that runs the piazza interface.
 """
